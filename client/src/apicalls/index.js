@@ -1,15 +1,3 @@
-/*import axios from 'axios';
-
-const axiosInstance = axios.create({
-    baseURL: 'https://quiz-application-76ev.onrender.com',
-    headers: {
-         Authorization : `Bearer ${localStorage.getItem('token')}`
-    }
-});
-
-export default axiosInstance;
-*/
-
 import axios from 'axios';
 
 const axiosInstance = axios.create({
