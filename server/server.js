@@ -8,6 +8,7 @@ const usersRoute = require("./routes/usersRoute");
 const examsRoute = require("./routes/examsRoute");
 const resportsRoute = require("./routes/reportsRoute");
 
+app.use(cors());
 
 app.use("/api/users", usersRoute);
 app.use("/api/exams", examsRoute);
