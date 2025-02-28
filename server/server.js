@@ -14,6 +14,10 @@ app.use("/api/exams", examsRoute);
 app.use("/api/reports", resportsRoute);
 const port = process.env.PORT || 5000;
 
+app.get('/', (req, res) => {
+  res.send("<h1>Quiz App. Your server is Live</h1>");
+});
+
 const path = require("path");
 __dirname = path.resolve();
 
